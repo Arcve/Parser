@@ -1,0 +1,85 @@
+{
+  "random" : false,
+  "authPass" : null,
+  "useOnlinePac" : false,
+  "TTL" : 0,
+  "global" : false,
+  "reconnectTimes" : 3,
+  "index" : 0,
+  "proxyType" : 0,
+  "proxyHost" : null,
+  "authUser" : null,
+  "proxyAuthPass" : null,
+  "isDefault" : false,
+  "pacUrl" : null,
+  "configs" : [
+    {
+      "enable" : true,
+      "password" : "6tKGbNUQPedr5as",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "HK",
+      "server" : "hk1-sta51.kd39a.pw",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 21124,
+      "remarks_base64" : "SEs="
+    },
+    {
+      "enable" : true,
+      "password" : "6tKGbNUQPedr5as",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "US",
+      "server" : "us2-sta51.kd39a.pw",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 21124,
+      "remarks_base64" : "VVM="
+    },
+    {
+      "enable" : true,
+      "password" : "6tKGbNUQPedr5as",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "JP",
+      "server" : "jp1-sta51.kd39a.pw",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 21124,
+      "remarks_base64" : "SlA="
+    }
+  ],
+  "proxyPort" : 0,
+  "randomAlgorithm" : 0,
+  "proxyEnable" : false,
+  "enabled" : true,
+  "autoban" : false,
+  "proxyAuthUser" : null,
+  "shareOverLan" : false,
+  "localPort" : 1080
+}
